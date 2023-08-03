@@ -54,4 +54,3 @@ def show_image(image_data, cmap='gray'):
     plt.imshow(image_data, cmap=cmap)
     plt.axis('off')
     plt.show()
-
