@@ -1,5 +1,6 @@
 import json
 import numpy as np
+import matplotlib.pyplot as plt
 
 def generar_info_guardar_json(reduced_image_data, cell_size):
     # Obtener las dimensiones de la imagen reducida
