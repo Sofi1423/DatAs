@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='DatAsPy',
-    version='4.0',
-    packages=['datos'],
+    name='DatAs',
+    version='4.1',
+    packages=['DatAs'],
     url='https://github.com/Sofi1423/DatAs',  # Cambia 'tu_usuario' por tu nombre de usuario de GitHub
     license='MIT',
     author='Sofia Fredes, Josefina Navarrete, Nicolas Rojas',
