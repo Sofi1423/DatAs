@@ -7,12 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1f7yqy3aRDHBf-_760giW-q0FmU4WTQ-p
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='DatAs',
     version='3.0',
-    packages=['DatAs'],
+    packages=find_packages(),
     install_requires=[
         'astropy',
         'matplotlib',
@@ -20,5 +20,5 @@ setup(
     ],
     author='Sofia fredes, Josefina Navarrete, Nicolas Rojas',
     description='Libreria enfocada en encontrar puntos de interes en base a contraste en imagenes FITS',
-    python_requires='>=3.6',
+    url='https://https://github.com/Sofi1423/DatAs',
 )

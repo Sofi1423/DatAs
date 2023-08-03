@@ -7,4 +7,4 @@ Original file is located at
     https://colab.research.google.com/drive/15wyPeX75psvNscXKmPHs89qLaodPm-58
 """
 
-from .datAs import load, divide_image, calculate_contrast, get_cells
+from .DatAs import load, divide_image, calculate_contrast, get_cells
