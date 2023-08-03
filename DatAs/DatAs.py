@@ -9,7 +9,7 @@ Original file is located at
 
 import astropy.io.fits as fits
 import numpy as np
-import json
+import matplotlib.pyplot as plt
 
 def load(file_path):
     archivo_fits = fits.open(file_path)
@@ -48,4 +48,10 @@ def calculate_contrast(cell_info_list):
 
 def get_cells(cell_info_list, N=5):
     cell_info_list.sort(key=lambda x: x['contrast_metric'], reverse=True)
-    return cell_info_list[:N]
+    return cell_info_list
+
+def show_image(image_data, cmap='gray'):
+    plt.imshow(image_data, cmap=cmap)
+    plt.axis('off')
+    plt.show()
+
